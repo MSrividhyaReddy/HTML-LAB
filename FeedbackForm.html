@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+    <style>
+        textarea{
+            width:400px ;
+            height: 100px;
+        }
+        body{
+            background-color:cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form action="file:///C:/Users/msriv/Documents/FeedbackSuccess.html">
+        <input required type="text" placeholder="First Name"><br><br>
+        <input required type="text" placeholder="Second Name"><br><br>
+        <input required type="date" placeholder="Date Of Birth"><br><br>
+        <input required type="number" placeholder="Phone Number"><br><br>
+        <input required type="email" placeholder="email"><br><br>
+        <input required type="text" placeholder="Course"><br><br>
+        <textarea required name="feedback" placeholder="How many points would you like to give us out of 100?Why?"></textarea><br><br>
+        <textarea required name="feedback" placeholder="What you like the most in our course?"></textarea><br><br>
+        <textarea required name="feedback" placeholder="Do we need to improve anything?If yes give some suggestions. "></textarea><br>
+        <p>Would you recommend our school to others?</p>
+        <lable required for="01">
+            <input type="radio" value=Yes name="Boolean" id="01">Yes
+        </lable><br>
+        <lable required for="02">
+            <input type="radio" value=No name="Boolean" id="02">No
+        </lable><br><br><br>
+        <input type="submit" placeholder="submit">
+    </form>
+</body>
+</html>
